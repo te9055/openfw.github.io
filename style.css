@@ -1,0 +1,21 @@
+/* Apply a fullscreen background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('resources/firework.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the full screen */
+    font-family: Arial, sans-serif;
+    color: white; /* A contrasting text color */
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a subtle background for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+}
